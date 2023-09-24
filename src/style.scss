@@ -1,0 +1,25 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-my-svg-block {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+}
+
+@keyframes dude{
+	to {
+		stroke-dashoffset: 30;
+	}
+}
+
+.ionicon{
+	stroke-dasharray: var(--customDash); 
+	animation: dude 5s alternate forwards infinite; 
+}
+
+
